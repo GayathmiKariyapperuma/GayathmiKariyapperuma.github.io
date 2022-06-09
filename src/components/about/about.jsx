@@ -1,11 +1,6 @@
 import "./about.css";
-import Interests from "../interests/interests";
 
 function About() {
-  return (
-    <div id="about" className="container about-container">
-      <Interests />
-    </div>
-  );
+  return <div id="about" className="container about-container"></div>;
 }
 export default About;
