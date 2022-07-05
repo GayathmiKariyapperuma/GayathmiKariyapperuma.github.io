@@ -56,6 +56,32 @@
   opacity: 1;
 }
 
+.english-container {
+  position: relative;
+  width: 100%;
+  height: 278px;
+  background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+  padding: 10px;
+}
+
+.english-body {
+  position: absolute;
+  text-decoration: none;
+  background-color: rgb(10, 19, 49);
+  padding: 12px;
+}
+
+.english-img {
+  width: 100%;
+  height: 278px;
+  position: relative;
+}
+
+.english-img:hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
 .achievementsIcon {
   font-size: 36px;
   text-align: center;
